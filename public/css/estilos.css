@@ -1,0 +1,599 @@
+.row{
+  margin-right: 0px;
+}
+h2,h1,h3,p{
+  margin: 0px;
+}
+
+h2,h1{
+  color:#e58b14;
+}
+
+h3{
+  color:gray;
+}
+.navbar-default{
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container-fluid {
+  padding-left: 60px;
+  padding-right: 100px;
+}
+.navbar-fixed {
+    position:fixed;
+    z-index:1000;
+    top:0px;
+    max-width:100%;
+    width:100%;
+    box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.navbar-right li{
+  color: white;
+}
+.containers .active{
+  background: green;
+}
+/* Carousel base class */
+.carousel {
+  height: 400px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  padding-top: 200px;
+  margin-top: 100px;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+.presentation{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.texto{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.img-figure{
+  padding-left: 15px;
+}
+
+.img-figure img{
+  height: 100px;
+}
+
+.tools{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #5b5b5b;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.tools h1{
+  padding-bottom: 60px;
+  padding-left: 15px;
+}
+
+.tools .texto{
+  color: white;
+}
+
+.tools figure{
+  padding-top: 20px;
+}
+.tools .img-figure img{
+  height: 200px;
+  width: 334px; 
+}
+
+.tools .box:hover{
+  box-shadow: 0 5px 20px 3px black; 
+}
+
+.testimonials{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.testimonials .active {
+  background: black;
+}
+
+.testimonials h1{
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.testimonials h2, .testimonials h3{
+  padding-bottom: 10px;
+}
+.container-testimonials{
+  padding: 0px;
+  margin: 0px;
+}
+
+.testimonials .carousel {
+  height: 400px;
+}
+/* Since positioning the image, we need to help out the caption */
+.testimonials .carousel-capttion {
+  height: 500px;
+  padding-top: 0px;
+  margin-top: 0px;
+  z-index: 10;
+  width: 900px;
+}
+
+.testimonials .carousel-rows{
+  width: 1500px;
+  height: 350px;
+  margin: 0px;
+  padding-left: 60px;
+}
+.testimonials .carousel-row{
+  width: 600px;
+  height: 350px;
+  margin: 0px;
+}
+
+
+.testimonials .carousel-col{
+  padding: 0px;
+  height: 350px;
+}
+
+/* Declare heights because of positioning of img element */
+.testimonials .carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.testimonials .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 200px;
+}
+.testimonials .img-fig{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.testimonials .img-fig img{
+  border-radius: 100px;
+}
+
+.testimonials .img-figure{
+  padding-top: 60px;
+}
+
+.testimonials .img-figure img{
+  height: 50px;
+}
+
+.testimonials .carousel .item{
+  background: white;
+}
+
+.client{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+}
+
+.client h1{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.client figure{
+  height: 150px;
+  padding-left: 40px;
+}
+
+.project{
+  padding-top: 60px;
+  background: #838384;
+}
+
+.project h1{
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+
+.project h3{
+  padding-left: 60px;
+  color: black;
+  padding-bottom: 60px;
+}
+
+
+
+#logo1{
+  height: 200px;
+  background: url(../img/clients/logo1.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo1:hover{
+  height: 200px;
+  background: url(../img/clients/logo1-active.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+#logo2{
+  height: 200px;
+  background: url(../img/clients/logo2.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo2:hover{
+  height: 200px;
+  background: url(../img/clients/logo2-active.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo3{
+  height: 200px;
+  background: url(../img/clients/logo3.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo3:hover{
+  height: 200px;
+  background: url(../img/clients/logo3-active.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo4{
+  height: 200px;
+  background: url(../img/clients/logo4.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo4:hover{
+  height: 200px;
+  background: url(../img/clients/logo4-active.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo5{
+  height: 200px;
+  background: url(../img/clients/logo5.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo5:hover{
+  height: 200px;
+  background: url(../img/clients/logo5-active.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo6{
+  height: 200px;
+  background: url(../img/clients/logo6.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+#logo6:hover{
+  height: 200px;
+  background: url(../img/clients/logo6-active.png) center center / cover no-repeat;
+  background-size: 100% 200px;
+}
+
+
+
+.container-project{   
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top:20px;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.hover12 h1 {
+  color: white;
+  padding-top: 100px;
+}
+.project {
+  padding-bottom: 60px;
+}
+#project1 {
+  background: red;
+  background: url(../img/project1.png) center center / cover no-repeat;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#project1:hover {
+  opacity: .5;
+}
+
+#project2 {
+  background: red;
+  background: url(../img/project2.png) center center / cover no-repeat;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#project2:hover {
+  opacity: .5;
+}
+
+#project3 {
+  background: red;
+  background: url(../img/project3.png) center center / cover no-repeat;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#project3:hover {
+  opacity: .5;
+}
+#project4 {
+  background: red;
+  background: url(../img/project4.png) center center / cover no-repeat;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#project4:hover {
+  opacity: .5;
+}
+
+#project5 {
+  background: red;
+  background: url(../img/project5.png) center center / cover no-repeat;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#project5:hover {
+  opacity: .5;
+}
+
+#project6 {
+  background: red;
+  background: url(../img/project6.png)center center / cover no-repeat;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#project6:hover {
+  opacity: .5;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+.cases {
+    background: ;
+    display: flex;
+    flex-direction: column;
+}
+.cases:hover{
+  box-shadow: 0 1px 25px 1px black;
+}
+.img-bg {
+  background-image: url(../img/bg-social.png);
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+#mapa{
+  background: url(../img/mapa.png);
+  background-position: center;
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+
+ body {
+  text-rendering: optimizelegibility;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.wrapper {
+  background: url("../img/bg-header.png") no-repeat scroll center center/cover transparent;
+  min-height: 100vh;
+  transform-origin: center bottom 0px;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.5);
+}
+
+body.tight .wrapper {
+  transform: translateY(-60px) scale(0.9);
+  cursor: pointer;
+}
+
+.footer {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0px auto;
+  text-align: center;
+  min-height: 200px;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 2.125rem;
+  font-family: "Raleway", sans-serif;
+  padding-top: 40px;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url();
+  background-size: contain;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
